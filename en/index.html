@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estils.css">
+    <link href="../fontawesome/css/all.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../img/laptop-code-solid.svg" />
+    <script src="../js/codigo.js"></script>
+    <title>Ricard Casals</title>
+</head>
+
+<body>
+    <div id="header" class="row relleno-lateral">
+        <div class="column-1">
+            <select name="language" id="language" onchange="language()">
+                <option value="ES">Español</option>
+                <option value="EN" selected>Inglés</option>
+            </select>
+        </div>
+        <div id="letras-header" class="column-2">
+            <div class="letras-1">
+                <h1 class="letras-anim">H</h1>
+                <h1 class="letras-anim">I</h1>
+                <h1 class="letras-anim">,</h1>
+            </div>
+            <div class="letras-2">
+                <h1 class="letras-anim">I</h1>
+                <h1 class="letras-anim">'</h1>
+                <h1 id="separacion-letras" class="letras-anim">M</h1>
+                <h1 class="letras-anim">R</h1>
+                <h1 class="letras-anim">I</h1>
+                <h1 class="letras-anim">C</h1>
+                <h1 class="letras-anim">A</h1>
+                <h1 class="letras-anim">R</h1>
+                <h1 class="letras-anim">D</h1>
+                <h1 class="letras-anim">,</h1>
+            </div>
+            <div class="letras-3">
+                <h1 class="letras-anim">W</h1>
+                <h1 class="letras-anim">E</h1>
+                <h1 id="separacion-letras-2" class="letras-anim">B</h1>
+                <h1 class="letras-anim">P</h1>
+                <h1 class="letras-anim">R</h1>
+                <h1 class="letras-anim">O</h1>
+                <h1 class="letras-anim">G</h1>
+                <h1 class="letras-anim">R</h1>
+                <h1 class="letras-anim">A</h1>
+                <h1 class="letras-anim">M</h1>
+                <h1 class="letras-anim">M</h1>
+                <h1 class="letras-anim">E</h1>
+                <h1 class="letras-anim">R</h1>
+
+            </div>
+        </div>
+        <div class="column-2 relleno-header">
+            <ul>
+                <li><a href="#section-1">About me</a></li>
+                <li><a href="#section-2">Technical knowledge</a></li>
+                <li><a href="#section-4">Professional experience</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="navegador">
+        <ul>
+            <li><a href="#footer"><i class="fas fa-id-card fa-1x"></i></a></li>
+            <li><a href="#section-4"><i class="fas fa-briefcase fa-1x"></i></a></li>
+            <li><a href="#section-2"><i class="fas fa-laptop-code fa-1x"></i></a></li>
+            <li><a href="#section-1"><i class="fas fa-user fa-1x"></i></a></li>
+            <li><a href="#header"><i class="fas fa-home fa-1x"></i></a></li>
+        </ul>
+    </div>
+    <div id="section-1" class="row relleno-lateral">
+        <div class="column-2 relleno-columnas">
+            <h2>About me</h2>
+            <p>My name is Ricard Casals Dorador, I am a young software developer who likes to work on computer-related projects, especially programming. I love working in a team and learning the most from my teammates, both in terms of skills and technical
+                knowledge.
+            </p>
+        </div>
+        <div class="column-2 relleno-columnas">
+            <iframe src="https://www.youtube.com/embed/mI0oAXrOUyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div id="section-2" class="row relleno-lateral">
+        <div class="column-1 relleno-columnas">
+            <h2>Technical knowledge</h2>
+        </div>
+        <div id="circle-1" class="column-3 relleno-columnas">
+            <div class="boxc">
+                <div class="percent">
+                    <svg>
+                        <circle cx="4.9vw" cy="4.85vw" r="4.5vw"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>80<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">HTML</h2>
+            </div>
+        </div>
+        <div id="circle-2" class="column-3 relleno-columnas mar-responsive-circle-2">
+            <div class="boxc">
+                <div class="percent">
+                    <svg>
+                        <circle cx="4.9vw" cy="4.85vw" r="4.5vw"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>70<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">CSS</h2>
+            </div>
+        </div>
+        <div id="circle-3" class="column-3 relleno-columnas">
+            <div class="boxc">
+                <div class="percent">
+                    <svg>
+                        <circle cx="4.9vw" cy="4.85vw" r="4.5vw"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>45<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">JS</h2>
+            </div>
+        </div>
+        <div id="circle-4" class="column-2 column-3-2 relleno-columnas circle-4-pad circle-down">
+            <div class="boxc">
+                <div class="percent">
+                    <svg>
+                        <circle cx="4.9vw" cy="4.85vw" r="4.5vw"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>90<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">Python</h2>
+            </div>
+        </div>
+        <div id="circle-5" class="column-2 relleno-columnas circle-down mar-responsive-circle-5">
+            <div class="boxc">
+                <div class="percent">
+                    <svg>
+                        <circle cx="4.9vw" cy="4.85vw" r="4.5vw"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>65<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">C#</h2>
+            </div>
+        </div>
+    </div>
+    <div id="section-3" class="row relleno-lateral">
+        <div class="column-1">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.1133705573866!2d2.1050974154246163!3d41.34988947926769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d64bd023fd%3A0x26089fc39cb352a3!2sCentro%20de%20Estudios%20Joan%20XXIII!5e0!3m2!1ses!2ses!4v1616168181862!5m2!1ses!2ses"
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="column-1">
+            <h3>Degree in Microinformatics Systems and Networks</h3>
+            <h5>Centro de Estudios Joan XXII 2019-2021</h5>
+        </div>
+    </div>
+    <div id="section-4" class="row">
+        <div class="column-33">
+            <img src="../img/section-4-1.png" alt="">
+        </div>
+        <div class="column-66 relleno-lateral">
+            <h2>Professional experience</h2>
+            <p>For years I have been working on multiple personal projects related to software development, especially in the backend part, although in recent years I have also worked on frontend. Some of the projects I have worked on are video game programming,
+                desktop applications or Machine Learning.</p>
+        </div>
+    </div>
+    <div id="section-5" class="row">
+        <div class="column-66 relleno-lateral">
+            <h2>Work experience</h2>
+            <p>In my work experience, he worked for several months as a computer technician at a telemarketing company called Golden Line. During my stay at said company, he was in charge of me, together with the administrator, that all the computer part
+                worked correctly, carrying out computer maintenance tasks, network management, problem solving, among other tasks.</p>
+        </div>
+        <div class="column-33">
+            <img src="../img/section-4-2.png" alt="">
+        </div>
+    </div>
+    <div id="footer" class="row">
+        <div class="footer-column-1">
+            <div id="imagen-1" class="relleno-imagen-footer">
+                <a href="https://github.com/RichiiCD" target="_blank"><img src="../img/logo-github.png" alt=""></a>
+            </div>
+            <div id="imagen-2" class="relleno-imagen-footer">
+                <a href="https://www.linkedin.com/in/ricard-casals-dorador-9705891a5/" target="_blank"><img src="../img/logo-link.png" alt=""></a>
+            </div>
+            <div id="imagen-3" class="relleno-imagen-footer">
+                <a href="https://twitter.com/richi_cd_" target="_blank"><img src="../img/logo-twitter.png" alt=""></a>
+            </div>
+            <div id="imagen-4" class="relleno-imagen-footer">
+                <a href="https://www.instagram.com/richi.cd_/" target="_blank"><img src="../img/logo-insta.png" alt=""></a>
+            </div>
+            <div id="imagen-5" class="relleno-imagen-footer">
+                <a href="https://www.linkedin.com/in/ricard-casals-dorador-9705891a5/" target="_blank"><img src="../img/logo-yt.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-column-2">
+            <h5>Ricard Casals Dorador | richicasals@gmail.com</h5>
+        </div>
+    </div>
+</body>
+
+</html>
